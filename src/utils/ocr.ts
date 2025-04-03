@@ -5,7 +5,7 @@ export const extractTextFromImage = async (imageFile: File): Promise<string> => 
   try {
     const result = await Tesseract.recognize(
       imageFile,
-      'eng', // Language code for English
+      'rus+eng', // Language codes for Russian and English
       {
         logger: (info) => {
           console.log(info);
