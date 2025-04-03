@@ -5,7 +5,7 @@ import TextPreview from '@/components/TextPreview';
 import DownloadButton from '@/components/DownloadButton';
 import { extractTextFromImage } from '@/utils/ocr';
 import { Toaster } from "@/components/ui/sonner";
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const Index = () => {
   const [extractedText, setExtractedText] = useState('');

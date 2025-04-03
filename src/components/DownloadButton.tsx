@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { FileDown } from 'lucide-react';
 import { generateWordDocument } from '@/utils/docx';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 interface DownloadButtonProps {
   text: string;
